@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.first-container{
+    height: 50vh;
+    width: 100vw;
+    background-color: #EAFBFF;
+}
+
+.second-container{
+    height: 50vh;
+    width: 100vw;
+    background-color: #5290F9;
+}
