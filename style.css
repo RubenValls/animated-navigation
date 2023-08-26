@@ -2,6 +2,7 @@ body{
     margin: 0;
     width: 100vw;
     height: 100vh;
+    font-family: 'Muli', sans-serif;
 }
 
 .first-container{
@@ -32,4 +33,11 @@ body{
     height: 50vh;
     width: 100vw;
     background-color: #5290F9;
+}
+
+a{
+    margin: 7px;
+    font-weight: 10px;
+    text-decoration: none;
+    color: rgb(60, 60, 60);
 }
