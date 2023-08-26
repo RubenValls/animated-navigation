@@ -5,9 +5,27 @@ body{
 }
 
 .first-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 50vh;
     width: 100vw;
     background-color: #EAFBFF;
+}
+
+.first-container > .navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    position: absolute;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.35);
+    height: 70px;
+    width: 300px;
+    background-color: white;
+    bottom: -35;
 }
 
 .second-container{
